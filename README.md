@@ -152,3 +152,4 @@ oc patch consoles.operator.openshift.io cluster \
 - [Console Plugin SDK README](https://github.com/openshift/console/tree/master/frontend/packages/console-dynamic-plugin-sdk)
 - [Customization Plugin Example](https://github.com/spadgett/console-customization-plugin)
 - [Dynamic Plugin Enhancement Proposal](https://github.com/openshift/enhancements/blob/master/enhancements/console/dynamic-plugins.md)
+# console-plugins
