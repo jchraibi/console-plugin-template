@@ -30,12 +30,11 @@
     "eslint-plugin-prettier": "^4.0.0",
     "eslint-plugin-react": "^7.29.4",
     "prettier": "^2.6.0",
-    "react": "17.0.1",
+    "react": "^18.0.0",
     "react-dom": "^17.0.1",
     "react-helmet": "^6.1.0",
     "react-i18next": "^11.8.11",
     "react-router": "5.2.0",
-    "react-router-dom": "5.2.0",
     "style-loader": "^3.3.1",
     "ts-loader": "^9.2.8",
     "ts-node": "^10.7.0",
@@ -50,10 +49,24 @@
     "displayName": "OpenShift Console Plugin Template",
     "description": "Template project for OpenShift console plugins. Edit package.json to change this message and the plugin name.",
     "exposedModules": {
-      "ExamplePage": "./components/ExamplePage"
+      "ExamplePage": "./components/ExamplePage",
+      "AcsView": "./components/AcsView",
+      "DesignPatterns": "./components/DesignPatterns",
+      "DetailedView": "./components/DetailedView"
     },
     "dependencies": {
       "@console/pluginAPI": "*"
     }
+  },
+  "dependencies": {
+    "@octokit/core": "^3.6.0",
+    "@patternfly/react-icons": "^4.49.19",
+    "axios": "^0.26.1",
+    "buffer": "^6.0.3",
+    "buffer-from": "^1.1.2",
+    "md-2-json": "^2.0.0",
+    "react-icons": "^4.3.1",
+    "react-native-base64": "^0.2.1",
+    "react-router-dom": "5.2.0"
   }
 }
